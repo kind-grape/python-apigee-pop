@@ -4,3 +4,5 @@ objPrivate = open("/Users/richp/Desktop/hvac_test/new_pop/pop-private-key-pkcs8.
 objPublic  = open("/Users/richp/Desktop/hvac_test/new_pop/pop-public-key.pem","r")
 strPrivate = objPrivate.read()
 strPublic  = objPublic.read()
+
+#clientID and clientSrt should be loaded as env var or python var from other machinism
